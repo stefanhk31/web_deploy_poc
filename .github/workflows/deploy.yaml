@@ -35,7 +35,7 @@ jobs:
           run: |
             [[ -d artifact ]] && rm -r artifact
             mkdir artifact
-            cp -R build/web artifacts
+            cp -R build/web artifact
         
         - name: Commit the Artifact
           uses: stefanzweifel/git-auto-commit-action@v5
