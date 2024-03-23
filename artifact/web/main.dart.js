@@ -55417,7 +55417,7 @@ return s.Dl(s.c-1)},
 $S:0}
 A.x8.prototype={
 N(a){var s=A.aO(a)
-return A.abn(A.f(A.akL(a,new A.Pp(),t.AC,t.S)),s.p3.a)}}
+return A.abn("test env var: hello \n "+A.f(A.akL(a,new A.Pp(),t.AC,t.S)),s.p3.a)}}
 A.Pp.prototype={
 $1(a){return a.c},
 $S:345}
