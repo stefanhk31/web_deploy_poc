@@ -17,6 +17,8 @@ dependencies:
   # using alpha version of flutter_html to fix compile issue: 
   # https://github.com/Sub6Resources/flutter_html/issues/1398
   flutter_html: ^3.0.0-alpha.3
+  go_router: ^13.1.0
+
 
 dev_dependencies:
   bloc_test: ^9.1.6
