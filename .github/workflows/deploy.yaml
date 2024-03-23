@@ -29,7 +29,7 @@ jobs:
             channel: "stable"
     
         - name: Build Web Application
-          run: flutter build web -t lib/main_development.dart --dart-define TEST=hello
+          run: flutter build web -t lib/main_production.dart --dart-define TEST=hello
 
         - name: Copy Build Artifact
           run: |
