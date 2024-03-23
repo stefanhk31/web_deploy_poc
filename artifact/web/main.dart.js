@@ -70647,7 +70647,7 @@ return s.JW(s.c-1)},
 $S:0}
 A.BT.prototype={
 T(a){var s=A.aV(a)
-return A.pN("test env var: hello \n "+A.f(A.azg(a,new A.WJ(),t.ph,t.S)),s.p3.a)}}
+return A.pN("test env var: https://tjvdjh92ap.us-east-1.awsapprunner.com \n "+A.f(A.azg(a,new A.WJ(),t.ph,t.S)),s.p3.a)}}
 A.WJ.prototype={
 $1(a){return a.c},
 $S:419}
