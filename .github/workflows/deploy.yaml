@@ -46,4 +46,4 @@ jobs:
           uses: stefanzweifel/git-auto-commit-action@v5
           with:
             branch: ci
-            commit_message: 'ci: automated commit at ${{ github.sha }}''
+            commit_message: 'ci: automated commit at ${{ github.sha }}'
