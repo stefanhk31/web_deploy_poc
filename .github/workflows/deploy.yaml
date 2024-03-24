@@ -28,6 +28,11 @@ jobs:
           with:
             channel: "stable"
     
+        - name: Checkout ci branch
+          uses: actions/checkout@v2
+          with:
+            ref: ci
+
         - name: Build Web Application
           run: flutter build web -t lib/main_production.dart --dart-define TEST=https://tjvdjh92ap.us-east-1.awsapprunner.com
 
@@ -36,11 +41,6 @@ jobs:
             [[ -d artifact ]] && rm -r artifact
             mkdir artifact
             cp -R build/web artifact
-        
-        - name: Remove all files and folders except .git folder
-          run: |
-            shopt -s extglob
-            rm -rf !(artifact|.git)
 
         - name: Commit the Artifact
           uses: stefanzweifel/git-auto-commit-action@v5
